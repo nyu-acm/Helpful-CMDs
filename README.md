@@ -11,7 +11,7 @@ find /path/to/dir -type f | wc -l
 ```
 
 
-## Get the number of files in a directory
+## Get the number of directories in a directory
 ```
 find /path/to/dir -type d | wc -l
 ```
