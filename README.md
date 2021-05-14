@@ -28,5 +28,5 @@ find . -xdev -type f -size +100M -exec ls -lh {} \;
 
 ## Find all hidden files in a directory, recursively
 ```
-find . -name '.*' -type d
+find . -name '.*'
 ```
