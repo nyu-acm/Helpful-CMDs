@@ -26,7 +26,7 @@ du -sh /path/to/dir
 find . -xdev -type f -size +100M -exec ls -lh {} \;
 ```
 
-## find all hidden files in a directory, recursively
+## Find all hidden files in a directory, recursively
 ```
 find . -name '.*' -type d
 ```
