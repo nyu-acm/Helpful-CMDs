@@ -9,3 +9,8 @@ find . -name .DS_Store -exec rm {} \;
 ```
 find /path/to/dir -type f | wc -l
 ```
+
+## Get the size of a directory
+```
+du -sh /path/to/dir
+```
