@@ -30,3 +30,7 @@ find . -xdev -type f -size +100M -exec ls -lh {} \;
 ```
 find . -name '.*'
 ```
+## List all files in a directory, recursively
+```
+ls -l1R /path/to/dir > filelisting.txt
+```
