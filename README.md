@@ -1,6 +1,6 @@
 # Helpful-CMDs
 
-## Recursively remove .DS_Store files from a directory
+## Remove .DS_Store files from a directory, recursively
 ```
 find . -name .DS_Store -exec rm {} \;
 ```
