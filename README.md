@@ -39,3 +39,8 @@ ls -l1R /path/to/dir > filelisting.txt
 ```
 find . -type f -exec sed -i 's/old-string/new-string/g' {} \;
 ```
+
+## Transfer files from one directory to another
+```
+rsync -rav /path/to/source /path/to/target
+```
