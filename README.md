@@ -10,6 +10,11 @@ find . -name .DS_Store -exec rm {} \;
 find /path/to/dir -type f | wc -l
 ```
 
+## Get the number of files in current directory
+```
+find . -type f | wc -l
+```
+
 ## Get the number of directories in a directory
 ```
 find /path/to/dir -type d | wc -l
