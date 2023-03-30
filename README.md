@@ -49,3 +49,13 @@ find . -type f -exec sed -i 's/old-string/new-string/g' {} \;
 ```
 rsync -rav /path/to/source /path/to/target
 ```
+
+## Transfer files from one directory to another (sudo) (cd into target directory)
+```
+sudo rsync -rav /path/to/source* .
+```
+
+## Transfer files from one directory to another (sudo)
+```
+
+sudo rsync -rav /path/to/source* /path/to/target
