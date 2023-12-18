@@ -35,6 +35,11 @@ find . -xdev -type f -size +100M -exec ls -lh {} \;
 find . -name '.*'
 ```
 
+## Find all hidden files in a directory, recursively, and delete them
+```
+find . -name '.*' -exec rm {} \;
+```
+
 ## List all files in a directory, recursively, and output to a text file. 
 ```
 ls -l1R /path/to/dir > filelisting.txt
